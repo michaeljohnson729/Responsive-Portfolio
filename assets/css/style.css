@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/polaroid.png")
+}
+
+.container {
+    padding: 20px;
+    overflow: auto;
+    background: #fff;
+    margin: 0 auto;
+    width: 960px;
+   
+}
+
+.container2 {
+    
+    padding: 20px;
+    overflow: auto;
+    background: #fff;
+    clear: both;
+    width: 960px;
+    margin: 30px auto
+
+}
+
+header, footer {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 80px;
+    background: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+header {
+    border-bottom: solid;
+    border-color: #ccc;
+    overflow: hidden;
+}
+
+#logo {
+    text-decoration: bold;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    margin-top: -20px;
+    padding: 24px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #fff;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+nav ul li a {
+    color: #777;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 22px;
+    color: #4aaaa5;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: solid;
+    border-color: #ccc;
+
+}
+.contact {
+    font-size: 22px;
+    color: #4aaaa5;
+    border-bottom: solid #ccc;
+    padding-bottom: 10px;
+}
+section img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+
+section p {
+    float: left;
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 5px;
+    line-height: 150%;
+}
+
+
+form .form-control {
+    margin: 16px 0;
+}
+
+form .form-control input, 
+form .form-control textarea  {
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+form .form-control textarea {
+    width: 400px;
+    height: 150px;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #4aaaa5;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 0;
+}
+
+
+footer {
+    text-align: center;
+    color: #fff;
+    border-top: solid;
+    border-top-width: 10px;
+    border-color: #4aaaa5;
+    background: #777;
+    position: absolute;
+    bottom: 0
+  
+}
+
+.container3 {
+    margin: 0 auto;
+    width: 960px;
+    background: #fff;
+    overflow: auto;
+}
+
+.images {
+    padding: 15px;
+    margin: 20px;
+    
+}
+
+#place_holder1 {
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+#place_holder2 {
+    float: right;
+    margin-right: 150px;
+    
+}
+
+#place_holder3 {
+    clear: both;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    
+}
+
+#place_holder4 {
+    float: right;
+    margin-right: 150px;
+    
+    
+}
+
+#place_holder5 {
+    clear: both;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    
+}
+
+.portfolio {
+    font-size: 22px;
+    color: #4aaaa5;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: solid;
+    border-color: #ccc;
+
+}
+
