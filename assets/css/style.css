@@ -210,3 +210,50 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        width: 0 auto;
+
+    }
+    
+    header, footer {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #logo {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 600px;
+        margin: 0 auto;
+
+    }
+
+    .container2 {
+        width: 600px;
+        margin: 0 auto;
+
+    }
+
+    .container3 {
+        width: 600px;
+        margin: 0 auto;
+
+    }
+
+    #place_holder1, #place_holder2, #place_holder3, #place_holder4, #place_holder5  { 
+       margin: 0 auto;
+       float: left;
+    }
+
+    #place_holder1, #place_holder2, #place_holder3, #place_holder4, #place_holder5 {
+        margin-bottom: 15px;
+        clear: both;
+    }
+    
+    
+
+}
